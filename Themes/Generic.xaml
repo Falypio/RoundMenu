@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <!--为特殊控件设置默认主题，这个必须要有 不然控件不显示-->
+        <ResourceDictionary Source="/RoundMenu;component/CircleMenu/CircleMenuControl.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
